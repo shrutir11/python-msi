@@ -24,7 +24,7 @@ jobs:
         with:
           images: ghcr.io/shrutir/rgapi
           tag-sha: true
-          tag-edge: false
+          tag-edge: true
           tag-latest: true
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
